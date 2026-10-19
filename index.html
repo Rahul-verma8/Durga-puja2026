@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,intial-scale=0.1">
+    <title>Bihar Sharif Durga Puja Utsav</title>
+    <link rel="stylesheet" href="Durga pujo.css">
+    <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  
+  </head>
+  <body>
+    <header class="hero-container">
+    <h2 class="hero-title">Welcome To</h2>
+    <h1 class="hero-subtitle">Bihar-Sharif's Durgapujanotsav</h1>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#Legends of maa durga" class="nav-link">Katha</a>
+      <a href="Mohalla.html" class="nav-link">Mohhalla</a>
+      <a href="#about" class="nav-link">About</a>
+    </nav>
+  </header>
+    <p>In this website you will get a detailed explaination of how durga puja is celebrated in <b>Bihar-Sharif.</b></p>
+    <div class="search-box">
+      <svg viewBox="0 0 24 24">
+        <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+      </svg>
+      <input type="text" placeholder="Search pandals, rituals, or locations...">
+    </div>
+    <div class="opening"><video src="Durgama pro1.mp4" playsinline loop autoplay muted></video></div>
+    <h2 class="section-title">Highlights</h2>
+    <div class="parent1">
+    <div class="child1"></div>
+    <div class="child2"></div>
+    <div class="child3"></div>
+    <div class="child4"></div>
+    <div class="child5"></div>
+    <div class="child6"></div>
+    <div class="child7"></div>
+    <div class="child8"></div>
+    <div class="child9"></div>
+    <div class="child10"></div>
+    </div>
+    <h2 class="section-title">Legends of Maa Durga</h2>
+    <div class="card-stack" id="cardStack">
+    <div class="card1">
+      <button class ="play">
+        <a href="card1.html"><i class="ri-arrow-right-line"></i></a></button>
+    </div><br>
+    <div class="card2">
+      <button class="play">
+        <a href="card2.html"><i class="ri-arrow-right-line"></i></a></button>
+    </div><br>
+    <div class="card3">
+      <button class="play">
+        <a href="Card3.html"><i class="ri-arrow-right-line"></i></a></button>
+    </div><br>
+    <div class="card4">
+      <button class="play">
+        <a href="Card4.html"><i class="ri-arrow-right-line"></i></button>
+    </div><br>
+    <div class="card5">
+      <button class="play">
+        <a href="Card5.html"><i class="ri-arrow-right-line"></i></button>
+    </div><br>
+    <div class="card6">
+      <button class="play">
+        <a href="Card6.html"><i class="ri-arrow-right-line"></i></button>
+    </div><br>
+    <div class="card7">
+      <button class="play">
+        <a href="Card7.html"><i class="ri-arrow-right-line"></i></button>
+    </div><br>
+    <div class="card8">
+      <button class="play">
+        <a href="Card8.html"><i class="ri-arrow-right-line"></i></button>
+    </div><br>
+    <div class="card9">
+      <button class="play">
+        <a href="Card9.html"><i class="ri-arrow-right-line"></i></button>
+    </div><br>
+    </div>
+    <script>
+        const stack = document.getElementById('cardStack');
+        stack.addEventListener('click', (e) => {
+           if (e.target.closest('.play')) return;
+            stack.classList.toggle('expanded');
+        });
+    </script>
+  </body>
+  </html>

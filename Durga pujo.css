@@ -1,0 +1,810 @@
+:root {
+      --primary-red: #8B0000;
+      --deep-crimson: #B22222;
+      --festive-gold: #FFD700;
+      --gold-accent: #DAA520;
+      --warm-bg: #FFF8EA;
+      --text-dark: #2C1810;
+      --text-light: #FFFFFF;
+      --shadow-glow: rgba(218, 165, 32, 0.25);
+    }
+*
+{
+  background-color:#feebc6;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+ body {
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--warm-bg);
+      color: var(--text-dark);
+      line-height: 1.6;
+      padding-bottom: 40px;
+    }
+html {
+  font-size: 100%; 
+}
+
+p {
+  font-size: 2rem; 
+}
+.hero-container {
+      background: linear-gradient(135deg, var(--primary-red) 0%, var(--deep-crimson) 100%);
+      color: var(--text-light);
+      text-align: center;
+      padding: 30px 20px 40px;
+      border-bottom: 5px solid var(--festive-gold);
+      box-shadow: 0 4px 15px var(--shadow-glow);
+      position: relative;
+    }
+
+    .hero-title {
+      font-family: 'Cinzel', serif;
+      font-size: 1.4rem;
+      letter-spacing: 2px;
+      color: var(--festive-gold);
+      text-transform: uppercase;
+      margin-bottom: 5px;
+    }
+
+    .hero-subtitle {
+      font-family: 'Cinzel', serif;
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: var(--text-light);
+      margin-bottom: 20px;
+      text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.4);
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      background: rgba(255, 255, 255, 0.12);
+      backdrop-filter: blur(8px);
+      padding: 10px 15px;
+      border-radius: 30px;
+      border: 1px solid rgba(255, 215, 0, 0.3);
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    .nav-link {
+      color: var(--text-light);
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 500;
+      padding: 6px 16px;
+      border-radius: 20px;
+      transition: all 0.3s ease;
+    }
+.nav-link:hover,
+    .nav-link.active {
+      background-color: var(--festive-gold);
+      color: var(--primary-red);
+      font-weight: 600;
+    }
+i
+{
+  border-radius:100%;
+  background:linear-gradient(to left,#FF6A00,#fbc233)
+  
+}
+.search-box {
+      display: flex;
+      align-items: center;
+      background: #FFFFFF;
+      border: 2px solid var(--gold-accent);
+      border-radius: 25px;
+      padding: 8px 16px;
+      margin-bottom: 25px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    .search-box input {
+      border: none;
+      outline: none;
+      width: 100%;
+      font-family: inherit;
+      font-size: 0.95rem;
+      color: var(--text-dark);
+    }
+
+    .search-box svg {
+      fill: var(--primary-red);
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+    }
+.opening
+{
+  width:96vw;
+  height:33vh;
+  background-color:#AB2330;
+  border-radius:8%;
+  box-shadow: 5px 5px 5px 5px grey;
+}
+.section-title {
+      font-family: 'Cinzel', serif;
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: var(--primary-red);
+      text-transform: capitalize;
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+.section-title::after {
+      content: '';
+      flex: 1;
+      height: 2px;
+      background: linear-gradient(to right, var(--gold-accent), transparent);
+    }
+video
+{
+  width:100%;
+  height:100%;
+  display:block;
+  object-fit:cover;
+  border-radius:8%;
+}
+.head
+{
+  color:white;
+  background-color:hwb(153 3% 0%);
+  font-size:100px;
+}
+
+.parent1
+ {
+   background-color:#feebc6;
+   background-repeat:no-repeat;
+   background-size:cover;
+   background-position:fixed;
+   white-space: nowrap;
+   overflow-x:auto;
+   overflow-y:hidden;
+ }
+.child1
+{
+  width:75vw;
+  height:65vh;
+  background-image:url("2026durga mata1.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius:50px;
+  margin:10px;
+  display:inline-block;
+  overflow:hidden;
+  box-shadow: 5px 5px 5px 5px grey;
+}
+.child2
+{
+  width:75vw;
+  height:65vh;
+  background-color:#FF6A00;
+  background-image:url("2026durga mata2.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius:50px;
+  margin:10px;
+  display:inline-block;
+  box-shadow: 5px 5px 5px 5px grey;
+}
+.child3
+{
+  width:75vw;
+  height:65vh;
+  background-color:#fbc233;
+  background-image:url("2026durga mata3.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius:50px;
+  margin:10px;
+  display:inline-block;
+  box-shadow: 5px 5px 5px 5px grey;
+}
+.child4
+{
+  width:75vw;
+  height:65vh;
+  background-color:#1F9E60;
+  background-image:url("2026durga mata4.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius:50px;
+  margin:10px;
+  display:inline-block;
+  box-shadow: 5px 5px 5px 5px grey;
+}
+.child5
+{
+  width:75vw;
+  height:65vh;
+  background-color:#008236;
+  background-image:url("2026durga mata5.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius:50px;
+  margin:10px;
+  display:inline-block;
+  box-shadow: 5px 5px 5px 5px grey;
+}
+.child6
+{
+  width:75vw;
+  height:65vh;
+  background-color:#0E5AA7;
+  background-image:url("2026durga mata6.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius:50px;
+  margin:10px;
+  display:inline-block;
+  box-shadow: 5px 5px 5px 5px grey; 
+}
+.child7
+{
+  width:75vw;
+  height:65vh;
+  background-color:#7B00FE;
+  background-image:url("2026durga mata7.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius:50px;
+  margin:10px;
+  display:inline-block;
+  box-shadow: 5px 5px 5px 5px grey;
+}
+.child8
+{
+  width:75vw;
+  height:65vh;
+  background-color:#A82835;
+  background-image:url("2026durga mata8.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius:50px;
+  margin:10px;
+  display:inline-block;
+  box-shadow: 5px 5px 5px 5px grey;
+}
+.child9
+{
+  width:75vw;
+  height:65vh;
+  background-color:#248277;
+  background-image:url("2026durga mata9.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius:50px;
+  margin:10px;
+  display:inline-block;
+  box-shadow: 5px 5px 5px 5px grey;
+}
+.child10
+{
+  width:75vw;
+  height:65vh;
+  background-color:#008;
+  background-image:url("2026durga mata10.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius:50px;
+  margin:10px;
+  display:inline-block;
+  box-shadow: 5px 5px 5px 5px grey;
+}
+/*.kid1
+{
+  color:white;
+  text-align: center;
+  background-color:#FF0000;
+  width:300px;
+  height:300px; 
+  background-repeat:no-repeat;
+  background-size:cover;
+}*/
+.card-stack 
+{
+  position: relative;
+  width: 100%;
+  height: 240px; /* Collapsed container height */
+  cursor: pointer;
+  transition: height 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+}
+.card-stack > div {
+            position: absolute;
+            top: 0;
+            left: 0;
+           width:96vw;
+           height:33vh;
+            border-radius: 10%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            box-shadow: 5px 5px 5px 5px grey (0, 0, 0, 0.4);
+            transition: all 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+            transform-origin: top center;
+            overflow: hidden;
+}
+  .card1 { background-color: #FF6A00; background-image: url("durgaimage1.jpg"); z-index: 9; 
+         width:96vw;
+           height:33vh;
+            border-radius: 10%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+          }
+  .card2 { background-color: #feebc6; background-image: url("durgaimage2.jpg"); border: 2px solid white; z-index: 8;
+         width:96vw;
+           height:33vh;
+            border-radius: 10%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+          }
+  .card3 { background-color: #D11319; background-image: url("durgaimage3.jpg"); z-index: 7;width:96vw;
+           height:33vh;
+            border-radius: 10%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center; }
+  .card4 { background-color: #0B35AB; background-image: url("durgaimage4.jpg"); z-index: 6;width:96vw;
+           height:33vh;
+            border-radius: 10%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center; }
+  .card5 { background-color: #fbc233; background-image: url("durgaimage5.jpg"); z-index: 5;width:96vw;
+           height:33vh;
+            border-radius: 10%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center; }
+  .card6 { background-color: #1F9E60; background-image: url("durgaimage6.jpg"); z-index: 4;width:96vw;
+           height:33vh;
+            border-radius: 10%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center; }
+  .card7 { background-color: #181818; background-image: url("durgaimage7.jpg"); z-index: 3;width:96vw;
+           height:33vh;
+            border-radius: 10%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center; }
+  .card8 { background-color: #8B7CF8; background-image: url("durgaimage8.jpg"); z-index: 2;width:96vw;
+           height:33vh;
+            border-radius: 10%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center; }
+  .card9 { background-color: #005F73; background-image: url("durgaimage9.jpg"); z-index: 1;width:96vw;
+           height:33vh;
+            border-radius: 10%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center; }
+
+  .play {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background: transparent;
+            cursor: pointer;
+            z-index: 10;
+        }
+        
+        .play i {
+            background-color: white;
+            font-size: 24px;
+            color: black;
+            border-radius: 50%;
+            border: 2px solid black;
+            padding: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+
+        /* --- COLLAPSED STATE (Card 1 is at the top, others stack below) --- */
+        .card-stack:not(.expanded) .card1 { transform: translateY(0px) scale(1); opacity: 1; }
+        .card-stack:not(.expanded) .card2 { transform: translateY(12px) scale(0.96); opacity: 0.85; }
+        .card-stack:not(.expanded) .card3 { transform: translateY(24px) scale(0.92); opacity: 0.70; }
+        .card-stack:not(.expanded) .card4 { transform: translateY(36px) scale(0.88); opacity: 0.55; }
+        .card-stack:not(.expanded) .card5 { transform: translateY(48px) scale(0.84); opacity: 0.40; }
+        .card-stack:not(.expanded) .card6 { transform: translateY(60px) scale(0.80); opacity: 0.25; }
+        .card-stack:not(.expanded) .card7 { transform: translateY(72px) scale(0.76); opacity: 0.10; }
+        .card-stack:not(.expanded) .card8 { transform: translateY(84px) scale(0.72); opacity: 0.05; }
+        .card-stack:not(.expanded) .card9 { transform: translateY(96px) scale(0.68); opacity: 0; }
+
+        /* --- EXPANDED STATE (Card 1 stays at top, others unfold sequentially downward) --- */
+        .card-stack.expanded {
+            height: 1940px; /* Container height expands to hold all unfolded cards */
+        }
+
+        .card-stack.expanded .card1 { transform: translateY(0px) scale(1); opacity: 1; }
+        .card-stack.expanded .card2 { transform: translateY(215px) scale(1); opacity: 1; }
+        .card-stack.expanded .card3 { transform: translateY(430px) scale(1); opacity: 1; }
+        .card-stack.expanded .card4 { transform: translateY(645px) scale(1); opacity: 1; }
+        .card-stack.expanded .card5 { transform: translateY(860px) scale(1); opacity: 1; }
+        .card-stack.expanded .card6 { transform: translateY(1075px) scale(1); opacity: 1; }
+        .card-stack.expanded .card7 { transform: translateY(1290px) scale(1); opacity: 1; }
+        .card-stack.expanded .card8 { transform: translateY(1505px) scale(1); opacity: 1; }
+        .card-stack.expanded .card9 { transform: translateY(1720px) scale(1); opacity: 1; }
+/*.play
+{
+  width:7vw;
+  height:5vh;
+  border-radius:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  position:absolute;
+  bottom:30px;
+  right:15px;
+  overflow:hidden;
+}
+.play i
+{
+  background-color:white;
+  background-size:cover;
+  font-size: 30px;
+  color:black;
+  border-radius:100%;
+  border:2px solid black;
+}*/
+.photo-gallary1
+{
+  width:96vw;
+  height:55vh;
+ display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      background: rgba(255, 255, 255, 0.12);
+      backdrop-filter: blur(8px);
+      padding: 10px 15px;
+      border-radius: 30px;
+      border: 1px solid rgba(255, 215, 0, 0.3);
+}
+.photo-gallary2
+{
+  /*width:150vw;
+  height:105vh;*/
+ display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      background: rgba(255, 255, 255, 0.12);
+      backdrop-filter: blur(8px);
+      padding: 10px 15px;
+      border-radius: 30px;
+      border: 1px solid rgba(255, 215, 0, 0.3);
+   overflow-x:auto;
+   overflow-y:hidden;
+}
+.photo1
+  {
+  width:37vw;
+  height:35vh;
+  background-image:url("2026durga mata1.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius:20px;
+  margin:10px;
+  display:inline-block;
+  overflow:hidden;
+  box-shadow: 5px 5px 5px 5px grey;
+     
+}
+.photo2
+  {
+  width:37vw;
+  height:35vh;
+  background-image:url("pandal1.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius:20px;
+  margin:10px;
+  display:inline-block;
+  overflow:hidden;
+  box-shadow: 5px 5px 5px 5px grey;
+}
+.text
+{
+  text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 500;
+      padding: 6px 16px;
+      border-radius: 20px;
+      transition: all 0.3s ease;
+}
+.photo-box1
+{
+  width:38vw;
+  height:33vh;
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ gap: 12px;
+ background: rgba(255, 255, 255, 0.12);
+ backdrop-filter: blur(8px);
+ padding: 10px 15px;
+ border-radius: 30px;
+ border: 1px solid rgba(255, 215, 0, 0.3);
+ 
+}
+.photo3
+  {
+  width:27vw;
+  height:20vh;
+  background-image:url("2026durga mata1.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius:20px;
+  margin:10px;
+  display:inline-block;
+  overflow:hidden;
+  box-shadow: 5px 5px 5px 5px grey;   
+}
+.photo4
+  {
+  width:27vw;
+  height:20vh;
+  background-image:url("2026durga mata2.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius:20px;
+  margin:10px;
+  display:inline-block;
+  overflow:hidden;
+  box-shadow: 5px 5px 5px 5px grey;   
+}
+.photo5
+  {
+  width:27vw;
+  height:20vh;
+  background-image:url("2026durga mata3.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius:20px;
+  margin:10px;
+  display:inline-block;
+  overflow:hidden;
+  box-shadow: 5px 5px 5px 5px grey;   
+}
+.photo6
+  {
+  width:27vw;
+  height:20vh;
+  background-image:url("2026durga mata4.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius:20px;
+  margin:10px;
+  display:inline-block;
+  overflow:hidden;
+  box-shadow: 5px 5px 5px 5px grey;   
+}
+.photo7
+  {
+  width:27vw;
+  height:20vh;
+  background-image:url("2026durga mata5.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius:20px;
+  margin:10px;
+  display:inline-block;
+  overflow:hidden;
+  box-shadow: 5px 5px 5px 5px grey;   
+}
+.photo8
+  {
+  width:27vw;
+  height:20vh;
+  background-image:url("2026durga mata6.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius:20px;
+  margin:10px;
+  display:inline-block;
+  overflow:hidden;
+  box-shadow: 5px 5px 5px 5px grey;   
+}
+.photo9
+  {
+  width:27vw;
+  height:20vh;
+  background-image:url("2026durga mata7.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius:20px;
+  margin:10px;
+  display:inline-block;
+  overflow:hidden;
+  box-shadow: 5px 5px 5px 5px grey;   
+}
+.photo10
+  {
+  width:27vw;
+  height:20vh;
+  background-image:url("2026durga mata8.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius:20px;
+  margin:10px;
+  display:inline-block;
+  overflow:hidden;
+  box-shadow: 5px 5px 5px 5px grey;   
+}
+.photo11
+  {
+  width:27vw;
+  height:20vh;
+  background-image:url("2026durga mata9.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius:20px;
+  margin:10px;
+  display:inline-block;
+  overflow:hidden;
+  box-shadow: 5px 5px 5px 5px grey;   
+}
+.photo12
+  {
+  width:27vw;
+  height:20vh;
+  background-image:url("2026durga mata10.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius:20px;
+  margin:10px;
+  display:inline-block;
+  overflow:hidden;
+  box-shadow: 5px 5px 5px 5px grey;   
+}
+.photo13
+  {
+  width:27vw;
+  height:20vh;
+  background-image:url("2026photo1.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius:20px;
+  margin:10px;
+  display:inline-block;
+  overflow:hidden;
+  box-shadow: 5px 5px 5px 5px grey;   
+}
+.photo14
+  {
+  width:27vw;
+  height:20vh;
+  background-image:url("2026photo2.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius:20px;
+  margin:10px;
+  display:inline-block;
+  overflow:hidden;
+  box-shadow: 5px 5px 5px 5px grey;   
+}
+.photo15
+  {
+  width:27vw;
+  height:20vh;
+  background-image:url("2026photo3.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius:20px;
+  margin:10px;
+  display:inline-block;
+  overflow:hidden;
+  box-shadow: 5px 5px 5px 5px grey;   
+}
+.photo16
+  {
+  width:27vw;
+  height:20vh;
+  background-image:url("2026photo4.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius:20px;
+  margin:10px;
+  display:inline-block;
+  overflow:hidden;
+  box-shadow: 5px 5px 5px 5px grey;   
+}
+.photo17
+  {
+  width:27vw;
+  height:20vh;
+  background-image:url("2026photo5.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius:20px;
+  margin:10px;
+  display:inline-block;
+  overflow:hidden;
+  box-shadow: 5px 5px 5px 5px grey;   
+}
+.photo18
+  {
+  width:27vw;
+  height:20vh;
+  background-image:url("2026photo6.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius:20px;
+  margin:10px;
+  display:inline-block;
+  overflow:hidden;
+  box-shadow: 5px 5px 5px 5px grey;   
+}
+.photo19
+  {
+  width:27vw;
+  height:20vh;
+  background-image:url("2026photo7.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius:20px;
+  margin:10px;
+  display:inline-block;
+  overflow:hidden;
+  box-shadow: 5px 5px 5px 5px grey;   
+}
+.photo20
+  {
+  width:27vw;
+  height:20vh;
+  background-image:url("2026photo8.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius:20px;
+  margin:10px;
+  display:inline-block;
+  overflow:hidden;
+  box-shadow: 5px 5px 5px 5px grey;   
+}
+.photo21
+  {
+  width:27vw;
+  height:20vh;
+  background-image:url("2026photo9.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius:20px;
+  margin:10px;
+  display:inline-block;
+  overflow:hidden;
+  box-shadow: 5px 5px 5px 5px grey;   
+}
+.photo22
+  {
+  width:27vw;
+  height:20vh;
+  background-image:url("2026photo10.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius:20px;
+  margin:10px;
+  display:inline-block;
+  overflow:hidden;
+  box-shadow: 5px 5px 5px 5px grey;   
+}
